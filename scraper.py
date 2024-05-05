@@ -231,5 +231,3 @@ def extract_data_from_ads_txt(ads_txt):
             extracted_data["owner_email"]=line.split("=")[1].strip()
             break
     return extracted_data
-
-print(get_website_data("https://www.y8.com"))
